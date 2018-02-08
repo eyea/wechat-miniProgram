@@ -19,3 +19,13 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.copyright {
+  position: absolute;
+  bottom: 20rpx;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+}

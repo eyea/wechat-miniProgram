@@ -34,6 +34,13 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    btnText: {
+      weather: '查看天气',
+      systemInfo: '查看系统信息',
+      common: {
+        todo: '该任务正在紧急开发中，敬请期待'
+      }
+    }
   }
 })
