@@ -1,0 +1,4 @@
+<!--pages/weather/weather.wxml-->
+<view class="container">
+  <view>查看天气功能正在开发中</view>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/getSystem/index.wxml-->
+<view class='container'>
+  <text wx:if="{{!systemInfos}}"> {{ btnText.common.todo }}</text>
+  <view class='systemShowInfo' wx:else>
+    <text wx:for="{{systemInfos}}" wx:for-item="item" wx:key="key">
+      {{ item }}
+    </text>
+  </view>
+</view>
